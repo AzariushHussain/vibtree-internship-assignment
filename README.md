@@ -21,7 +21,7 @@ source _name_of_virtual_environment_/bin/activate (Unix/MacOS)
 pip install -r requirements.txt
 
 # Create migration file
-py manage.py makemigrations 
+py manage.py makemigrations api
 
 # Create table in database 
 py manage.py migrate
