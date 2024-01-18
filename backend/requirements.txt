@@ -1,0 +1,4 @@
+djangorestframework==3.14.0
+twilio==8.11.1
+django-cors-headers==3.10.1
+    
