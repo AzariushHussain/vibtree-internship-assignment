@@ -128,11 +128,12 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+# Twilio account setup
 
-TWILIO_ACCOUNT_SID = 'AC476654e54aa05cb368ad6c9757812f8b'
-TWILIO_AUTH_TOKEN = 'aa930028b1534eb1558447fd386c883f'
-TWILIO_PHONE_NUMBER = '+17603878981'
-TWILIO_PHONE_NUMBER_WHATSAPP = 'whatsapp:+14155238886'
+TWILIO_ACCOUNT_SID = 'account_sid'
+TWILIO_AUTH_TOKEN = 'auth_token'
+TWILIO_PHONE_NUMBER = 'phone_number_for_sms_and_call'
+TWILIO_PHONE_NUMBER_WHATSAPP = 'whatsapp:phone_number_for_whatsapp_text'
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',  

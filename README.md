@@ -26,6 +26,9 @@ py manage.py makemigrations
 # Create table in database 
 py manage.py migrate
 
+# ___ IMPORTANT___
+# Navigate to the settings file in the backend folder
+# Scroll down and add your twilio profile information required in the Twilio account setup 
 
 # Run the backend
 py manage.py runserver
